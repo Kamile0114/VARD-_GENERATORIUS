@@ -99,7 +99,7 @@ st.markdown("""
 st.title("Lietuviškų vardų generatorius")
 
 gender = st.radio("Pasirinkti:", ["Vyro vardas", "Moters vardas"])
-start_letter = st.text_input("Įrašykite pirmąją norimo vardo raidę:", value="A")
+start_letter = st.text_input("Įrašykite pirmąją norimo vardo raidę:", value="M")
 temperature = st.slider("Generatoriaus kūrybiškumas:", min_value=0.1, max_value=2.0, value=1.0, step=0.1)
 
 if st.button("Generuoti naują vardą"):
